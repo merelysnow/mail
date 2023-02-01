@@ -1,0 +1,3 @@
+name: Mail
+version: 1.0.0
+main: com.github.merelysnow.mail.MailPlugin
