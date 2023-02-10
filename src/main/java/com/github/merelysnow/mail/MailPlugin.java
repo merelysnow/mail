@@ -1,7 +1,6 @@
 package com.github.merelysnow.mail;
 
 import com.github.merelysnow.mail.commands.MailCommand;
-import com.github.merelysnow.mail.commands.MailSendCommand;
 import com.github.merelysnow.mail.controller.UserController;
 import com.github.merelysnow.mail.database.UserDatabase;
 import com.github.merelysnow.mail.listeners.PlayersListeners;
@@ -48,8 +47,7 @@ public class MailPlugin extends JavaPlugin {
         BukkitFrame bukkitFrame = new BukkitFrame(this);
 
         bukkitFrame.registerCommands(
-                new MailCommand(),
-                new MailSendCommand()
+                new MailCommand()
         );
 
 
